@@ -1,29 +1,29 @@
 {
-  "name": "blockchain",
-  "version": "1.0.0",
+  "name": "BlockChain",
+  "version": "1",
+  "description": "mi primera blockchain",
   "main": "index.js",
+  "author": "Fatima",
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "@babel/core": "^7.5.5",
-    "@babel/node": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "eslint": "^6.3.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2",
+    "@babel/core": "^7.18.10",
+    "@babel/node": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
     "jest": "^29.0.1",
-    "nodemon": "^1.19.1"
+    "nodemon": "^2.0.19"
   },
   "scripts": {
     "start": "babel-node ./src/services/index.js",
-    "nodemon": "nodemon --exec yarn start",
-    "lint": "eslint index.js src",
     "test": "jest"
   },
   "dependencies": {
     "body-parser": "^1.20.0",
     "crypto-js": "^4.1.1",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "ws": "^8.9.0"
   },
   "jest": {
     "silent": true,
