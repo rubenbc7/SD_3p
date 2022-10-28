@@ -1,9 +1,9 @@
 {
   "name": "BlockChain",
   "version": "1",
-  "description": "mi primera blockchain",
+  "description": "Arremangalarrepujalasi",
   "main": "index.js",
-  "author": "Fatima",
+  "author": "Ruben",
   "license": "MIT",
   "private": false,
   "devDependencies": {
